@@ -1,0 +1,6 @@
+[theme]
+base="light"
+primaryColor="#b22222"  # Dark red color
+secondaryBackgroundColor="#c1adaf"  # Light grayish background
+textColor="#811027"  # Dark red for text
+
