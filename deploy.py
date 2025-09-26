@@ -14,7 +14,7 @@ for column in ['Sex', 'ChestPainType', 'FastingBS', 'RestingECG', 'ExerciseAngin
     df[column] = le.fit_transform(df[column])
     encoders[column] = le
 
-# Save each encoder separately
+# Save each encoder separately..
 for column, encoder in encoders.items():
     joblib.dump(encoder, f'{column}_encoder.pkl')
 
