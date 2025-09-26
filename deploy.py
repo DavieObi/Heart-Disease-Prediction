@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import numpy as np
 
-# Load the data
+# Load the data..
 df = pd.read_csv('heart.csv')
 
 # Assume `df` is your DataFrame
